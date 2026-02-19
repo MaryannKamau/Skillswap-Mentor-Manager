@@ -21,7 +21,7 @@ SkillSwap is a professional mentorship management platform built with React. It 
 - **Dialogs**: SweetAlert2
 - **Mock Backend**: JSON Server
 
-
+## Installation and Setup
 
 1. Clone the repository:
    git clone <your-repository-url>

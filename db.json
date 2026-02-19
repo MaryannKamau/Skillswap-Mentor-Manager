@@ -1,0 +1,85 @@
+{
+  "mentors": [
+    {
+      "id": 1,
+      "image": "https://randomuser.me/api/portraits/men/12.jpg",
+      "name": "Kelvin Kipchumba",
+      "email": "kelvin.kipchumba@gmail.com",
+      "status": "Offline",
+      "bio": "Kelvin is a seasoned software engineer with over 10 years of experience in the tech industry. He has worked on various projects ranging from web development to machine learning. Kelvin is passionate about mentoring aspiring developers and helping them achieve their career goals.",
+      "Phone": "+254 712 345 678",
+      "hourly_rate": 50,
+      "skills": ["Python", "JavaScript", "Machine Learning", "Web Development"]      
+    
+    },
+    {
+      "id": 2,
+      "image": "https://randomuser.me/api/portraits/men/12.jpg",
+      "name": "Ian Okumu",
+      "email": "ian.okumu@gmail.com",
+      "status": "Online",
+      "bio": "Data Scientist with a passion for uncovering insights from complex datasets. With a strong background in machine learning and statistical analysis, Ian has successfully delivered data-driven solutions across various industries. He is dedicated to helping organizations leverage their data to make informed decisions and drive business growth.",
+      "Phone": "+254 713 344 698",
+      "hourly_rate": 200,
+      "skills": ["Data Analysis", "Machine Learning", "Python", "R", "SQL"]
+      
+    },
+    {
+      "id": 3,
+      "image": "https://randomuser.me/api/portraits/men/12.jpg",
+      "name": "Maryann Kamau",
+      "email": "maryann.kamau@gmail.com",
+      "status": "Offline",
+      "bio": "Maryann is a talented UI/UX designer with a strong background in creating intuitive and engaging user experiences. She has worked on various projects across different industries, helping businesses improve their digital presence and user satisfaction.",
+      "Phone": "+254 712 291 553",
+      "hourly_rate": 250,
+      "skills": ["UI/UX Design", "Prototyping", "User Research", "Figma", "Adobe XD"]
+    },
+    {
+      "id": 4,
+      "image": "https://randomuser.me/api/portraits/men/12.jpg",
+      "name": "David Musembi",
+      "email": "david.musembi@gmail.com",
+      "status": "Online",
+      "bio": "David is a skilled software developer with expertise in full-stack development. He has a strong background in building scalable web applications and has experience working with various programming languages and frameworks. David is passionate about sharing his knowledge and helping others grow in their software development careers.",
+      "Phone": "+254 790 345 632",
+      "hourly_rate": 150,
+      "skills": ["JavaScript", "React", "Node.js", "Python", "Django"]
+    },
+    {
+      "id": 5,
+      "image": "https://randomuser.me/api/portraits/men/12.jpg",
+      "name": "Abdirahman Salah",
+      "email": "abdirahman.salah@gmail.com",
+      "status": "Online",
+      "bio": "Abdirahman is a highly experienced DevOps engineer with a strong background in cloud computing and infrastructure automation. He has successfully implemented DevOps practices in various organizations, helping them improve their software delivery processes and achieve faster time-to-market.",
+      "Phone": "+254 755 398 678",
+      "hourly_rate": 200,
+      "skills": ["DevOps", "Cloud Computing", "Infrastructure Automation", "AWS", "Docker", "Kubernetes"]
+    }
+  ],
+
+"inquiries": [
+    {
+      "id": 1,
+      "sender_name": "Alice Johnson",
+      "sender_email": "alice.johnson@gmail.com",
+      "mentor_id": 1,
+      "message": "Hi Kelvin, I'm interested in learning more about machine learning. Can you tell me about your experience and how you can help me get started?",
+      "date": "2024-06-01T10:00:00Z"
+      
+
+},
+    {
+      "id": 2,
+      "sender_name": "Bob Smith",
+      "sender_email": "bob.smith@gmail.com",
+      "mentor_id": 2, 
+      "message": "Hi Ian, I'm looking to improve my data analysis skills. Can you share some insights on how you approach data analysis and what tools you recommend?",
+      "date": "2024-06-02T14:30:00Z"
+    }
+    ]
+}
+    
+
+

@@ -2,7 +2,7 @@ import { useEffect,useState} from "react";
 import Swal from 'sweetalert2'
 import { Link } from "react-router-dom";
 
-function MentorCard(mentor,onDelete){
+function MentorCard({mentor,onDelete}){
 
     const handleDelete=() => {
         Swal.fire({
@@ -37,11 +37,11 @@ function MentorCard(mentor,onDelete){
             <p>{mentor.bio}</p>
             <p>{mentor.skills}</p>
             <p>{mentor.hourly_rate}</p>
-            <p>{mentor.phone}</p>
+            <p>{mentor.Phone}</p>
 
         </div>
 
-        <Link to={`/edit/${mentor.id}`} classname="btn-edit">Edit</Link>
+        <Link to={`/edit/${mentor.id}`} className="btn-edit">Edit</Link>
         <button onClick={handleDelete} className="btn-delete">Delete</button>
     </div>
     )

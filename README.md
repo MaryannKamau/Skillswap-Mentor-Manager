@@ -1,16 +1,56 @@
-# React + Vite
+# SkillSwap: Mentor Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+SkillSwap is a professional mentorship management platform built with React. It serves as a centralized registry for organizations to manage a directory of experts, track their availability, and handle student inquiries. This project demonstrates advanced React concepts, including asynchronous data management, multi-page routing, and polished user experience.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Analytics Dashboard**: View real-time statistics including total mentors, active availability, and average hourly rates.
+- **Mentor Directory**: Browse a full list of experts with detailed profiles and status indicators.
+- **Profile Management**: Complete CRUD (Create, Read, Update, Delete) functionality for mentor profiles.
+- **Inquiry System**: Manage student booking requests with a dedicated interface to resolve or remove inquiries.
+- **Safe Deletion**: Integrated confirmation dialogs to prevent accidental data loss.
+- **Responsive UI**: A modular design that adapts to various screen sizes.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend**: React.js
+- **Routing**: React Router Dom
+- **State Management**: React Hooks (useState, useEffect)
+- **API Handling**: Fetch API / Axios
+- **Notifications**: React Hot Toast
+- **Dialogs**: SweetAlert2
+- **Mock Backend**: JSON Server
 
-## Expanding the ESLint configuration
+## Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+src/
+├── components/       # Reusable UI components (Navbar, MentorCard, FormField)
+├── pages/            # Main application views (Dashboard, Directory, AddMentor)
+├── styles/           # External CSS stylesheets
+├── App.jsx           # Root component and global state management
+└── main.jsx          # Application entry point
+
+## Installation and Setup
+
+1. Clone the repository:
+   git clone <your-repository-url>
+
+2. Install the necessary dependencies:
+   npm install react-router-dom react-hot-toast sweetalert2
+
+3. Start the mock backend server:
+   npx json-server --watch db.json --port 3000
+
+4. Launch the development environment:
+   npm run dev
+
+## Usage
+
+- **Dashboard**: Monitor the overall health and metrics of the mentorship network.
+- **Mentors**: Use the directory to view all profiles. From here, you can initiate edit or delete actions.
+- **Add Mentor**: Fill out the registration form to onboard new talent.
+- **Inquiries**: Review and resolve incoming messages from students.
+
+## License
+
+This project is open-source and available under the MIT License.

@@ -30,7 +30,7 @@ SkillSwap is a professional mentorship management platform built with React. It 
    npm install react-router-dom react-hot-toast sweetalert2
 
 3. Start the mock backend server:
-   npx json-server --watch db.json --port 3000
+   npx json-server --watch db.json --port 5000
 
 4. Launch the development environment:
    npm run dev

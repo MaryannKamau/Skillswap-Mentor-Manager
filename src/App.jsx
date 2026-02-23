@@ -81,7 +81,7 @@ function App(){
         
          <div className="App">
             <Toaster position="top-right" />
-        <BrowserRouter>
+        
          <Layout>
            <Routes>
             
@@ -93,7 +93,7 @@ function App(){
             <Route path="/about" element={<About />} />
            </Routes>
          </Layout>
-        </BrowserRouter>    
+           
          </div>
        
 

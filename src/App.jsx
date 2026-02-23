@@ -15,7 +15,7 @@ function App(){
     const [inquiries, setInquiries] = useState([]); 
     const [loading, setLoading] = useState(true);
 
-    const API_URL = "http://localhost:5000";
+    const API_URL = "https://my-json-server.typicode.com/MaryannKamau/Skillswap-Mentor-Manager/mentors";
 
     useEffect(() => {
         const fetchData = async () => {

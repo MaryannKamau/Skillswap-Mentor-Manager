@@ -1,0 +1,93 @@
+/* Page container */
+.inquiries-page {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 25px;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Page title */
+.inquiries-page h1 {
+  text-align: center;
+  font-size: 28px;
+  color: #2c3e50;
+  margin-bottom: 25px;
+}
+
+/* Empty state message */
+.inquiries-page p {
+  text-align: center;
+  color: #555;
+  font-size: 16px;
+}
+
+/* Inquiry list container */
+.inquiry-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Individual inquiry card */
+.inquiry-card {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.inquiry-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+}
+
+/* Header section */
+.inquiry-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Email */
+.inquiry-email {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 8px;
+}
+
+/* Message */
+.inquiry-text {
+  font-size: 16px;
+  color: #555;
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+/* Resolve button */
+.btn-resolve {
+  padding: 10px 20px;
+  background-color: #1abc9c;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn-resolve:hover {
+  background-color: #16a085;
+  transform: translateY(-2px);
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .inquiry-header {
+    flex-direction: column;
+    gap: 5px;
+  }
+}

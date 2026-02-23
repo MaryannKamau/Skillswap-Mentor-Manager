@@ -1,5 +1,6 @@
 import Swal from "sweetalert2";
 import toast from "react-hot-toast";
+import "./Inquiries.css";
 
 const Inquiries = ({ inquiries, onResolve }) => {
 

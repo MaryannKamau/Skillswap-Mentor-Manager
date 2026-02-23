@@ -1,3 +1,4 @@
+import "./FormField.css";
 function FormField({label,type,name,value,onChange,placeholder,required}){
     return(
         <div className="form-group">

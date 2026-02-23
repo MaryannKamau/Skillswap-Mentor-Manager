@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import toast from "react-hot-toast";
 import FormField from "../components/FormField";
+import "./AddMentor.css";
 
 function AddMentor({ onAdd }) {
     const navigate = useNavigate();
@@ -28,7 +29,7 @@ function AddMentor({ onAdd }) {
         const newMentor = { 
             ...formData, 
             id: Date.now().toString(),
-            image: "https://i.pravatar.cc" + Date.now()
+            image: `https://i.pravatar.cc/150?img=${Math.floor(Math.random()*70)}`
         };
 
         onAdd(newMentor); 

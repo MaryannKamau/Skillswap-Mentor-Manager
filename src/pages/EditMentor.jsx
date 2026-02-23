@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import FormField from "../components/FormField";
 import toast from "react-hot-toast";
+import "./EditMentor.css";
 
 const EditMentor = ({ mentors, onUpdate }) => {
   const { id } = useParams(); 
@@ -58,7 +59,7 @@ const EditMentor = ({ mentors, onUpdate }) => {
 
         <FormField 
           label="Skills" 
-          name="skills" 
+          name="name" 
           type="text" 
           value={formData.skills} 
           onChange={handleChange} 

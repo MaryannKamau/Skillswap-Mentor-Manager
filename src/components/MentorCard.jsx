@@ -23,14 +23,15 @@ function MentorCard({mentor,onDelete}){
 
     
     return(
-        <div>
+        
 
-        <div className="mentor-card">
-            <img src={mentor.image} alt={mentor.name}>Profile</img>
+    <div className="mentor-card">
+           
+            <img src={mentor.image} alt={mentor.name} className="mentor-avatar" />
             <span className={`status-dot ${mentor.status === 'online' ? "active-now" : "away"}`}> {mentor.status}</span>
-        </div>
+        
 
-        <div className="card-body">
+           <div className="card-body">
             <h2>Mentor's Details</h2>
             <p>{mentor.name}</p>
             <p>{mentor.email}</p>
@@ -39,10 +40,10 @@ function MentorCard({mentor,onDelete}){
             <p>{mentor.hourly_rate}</p>
             <p>{mentor.Phone}</p>
 
-        </div>
+            </div>
 
-        <Link to={`/edit/${mentor.id}`} className="btn-edit">Edit</Link>
-        <button onClick={handleDelete} className="btn-delete">Delete</button>
+         <Link to={`/edit/${mentor.id}`} className="btn-edit">Edit</Link>
+         <button onClick={handleDelete} className="btn-delete">Delete</button>
     </div>
     )
 };

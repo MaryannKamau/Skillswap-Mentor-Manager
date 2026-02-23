@@ -2,7 +2,7 @@
   "mentors": [
     {
       "id": 1,
-      "image": "https://randomuser.me/api/portraits/men/12.jpg",
+      "image": "image.jpg",
       "name": "Kelvin Kipchumba",
       "email": "kelvin.kipchumba@gmail.com",
       "status": "Offline",
@@ -14,7 +14,7 @@
     },
     {
       "id": 2,
-      "image": "https://randomuser.me/api/portraits/men/12.jpg",
+      "image": "image.jpg",
       "name": "Ian Okumu",
       "email": "ian.okumu@gmail.com",
       "status": "Online",
@@ -26,7 +26,7 @@
     },
     {
       "id": 3,
-      "image": "https://randomuser.me/api/portraits/men/12.jpg",
+      "image": "image.jpg",
       "name": "Maryann Kamau",
       "email": "maryann.kamau@gmail.com",
       "status": "Offline",
@@ -37,7 +37,7 @@
     },
     {
       "id": 4,
-      "image": "https://randomuser.me/api/portraits/men/12.jpg",
+      "image": "image.jpg",
       "name": "David Musembi",
       "email": "david.musembi@gmail.com",
       "status": "Online",
@@ -48,7 +48,7 @@
     },
     {
       "id": 5,
-      "image": "https://randomuser.me/api/portraits/men/12.jpg",
+      "image": "image.jpg",
       "name": "Abdirahman Salah",
       "email": "abdirahman.salah@gmail.com",
       "status": "Online",

@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Toaster } from "react-hot-toast";
-import { Route, Routes, BrowserRouter } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import About from "./pages/About";
 import Dashboard from "./pages/Dashboard";
 import Directory from "./pages/Directory";
@@ -15,7 +15,7 @@ function App(){
     const [inquiries, setInquiries] = useState([]); 
     const [loading, setLoading] = useState(true);
 
-    const API_URL = "http://localhost:3000";
+    const API_URL = "http://localhost:5000";
 
     useEffect(() => {
         const fetchData = async () => {

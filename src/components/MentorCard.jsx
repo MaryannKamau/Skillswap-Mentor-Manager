@@ -1,4 +1,4 @@
-import { useEffect,useState} from "react";
+import "./MentorCard.css";
 import Swal from 'sweetalert2'
 import { Link } from "react-router-dom";
 
